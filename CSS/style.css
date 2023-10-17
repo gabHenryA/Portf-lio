@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lexend+Deca:wght@300&display=swap');
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+  background-color: beige;
+}
+
+header{
+  background-color: rgb(0,29,20); /*cor do fundo*/
+  color: #f5f5dc; /*cor do conteudo*/
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column; /* resigna para coluna */
+  align-items: center; /* centraliza */
+}
+
+header img {
+  width: 120px;
+  border-radius:  19px; /* arredondamento da borda*/
+  border: 7px solid beige /* borda */
+}
+
+header nav ul {
+    list-style: none; /* estilo da lista */
+    text-transform: uppercase; /* outro estilo ex: inicial capslock, todas maiúsculas*/
+}
+
+header nav ul li {
+    display: inline-block; /* ficar em linha*/
+    padding: 50px 30px; /*amplia o espaçamento interno do elemento*/
+    
+}
+header nav ul li:hover { /*hover ação de mudar a cor do elemento */
+    background-color: #f5f5dc;
+    color: rgb(0,29,20);
+    padding: 10px 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inf {
+    display: flex; /*display organiza em uma posição dos elemento (como o layout será selecionado) */
+}
+
+main h1 {
+    padding: 5 0px 30px;
+    text-align: center; /*text align alinha o text qde tal forma*/
+    font-family: 'Lexend Deca';
+}
+
+main .inf div{
+   text-align: justify;
+   padding: 20px 20px;
+}
+
+main .inf img{
+    width: 300px;
+    padding: 0px;
+    border-radius: 20px;
+    border: solid rgb(0,29,20) 12px;
+}
+
+footer img{
+  width: 25px;
+  padding: 10px;
+}
+
+.inf img {
+  margin: 20px;
+}
+
+footer div{
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div p{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 100px;
+}
+
+main p{
+  padding: 5px;
+}
+
+/*br: quebra de linha*/
+/*margin movimenta do lado externo do elemento*/
